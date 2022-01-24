@@ -30,7 +30,7 @@ a {
 
 .search-form {
   display: flex;
-  background-color: #f14035;
+  background-color: #f135c2;
   padding: 33px 5px 22px 3px;
   align-items: center;
   justify-content: center;
@@ -44,6 +44,7 @@ a {
   border-radius: 4px;
   box-sizing: border-box;
   outline: none;
+  font-weight: bold;
 }
 
 .gallery {
@@ -92,11 +93,11 @@ img {
 }
 
 .load-more-btn {
-  color: white;
   cursor: pointer;
-
+  color: rgb(245, 245, 245);
+  background-color: rgb(134, 80, 165);
   font-family: inherit;
-
+  font-weight: bold;
   display: inline-flex;
   align-items: center;
   text-align: center;
@@ -116,11 +117,12 @@ img {
 
 .search-btn {
   margin-left: 10px;
-  color: black;
-  background-color: white;
+  color: rgb(245, 245, 245);
+  background-color: rgb(134, 80, 165);
   cursor: pointer;
   padding: 4px 10px;
   border-radius: 4px;
   box-sizing: border-box;
   outline: none;
+  font-weight: bold;
 }
